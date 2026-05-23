@@ -1,0 +1,26 @@
+Topic tags untuk sismadi/ocw-pw
+Paste satu per satu di: GitHub repo → Settings → Topics
+
+─────────────────────────────────────────
+open-courseware
+ocw
+web-programming
+pemrograman-web
+javascript
+vanilla-javascript
+json-driven
+single-page-application
+zero-dependency
+no-build
+donatjs
+micro-framework
+educational-technology
+open-education
+indonesia
+universitas-ipwija
+─────────────────────────────────────────
+
+Catatan:
+- GitHub maksimal 20 topic tags per repo
+- Gunakan huruf kecil dan tanda hubung (kebab-case)
+- Semua 16 tag di atas sudah dalam format yang diterima GitHub
