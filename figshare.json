@@ -1,65 +1,47 @@
 {
-  "title": "OCW-PW: Open Courseware for Web Programming — Universitas IPWIJA",
-  "description": "Open courseware platform for the Pemrograman Web (Web Programming) course at Universitas IPWIJA, Jakarta. Built on DonatJS — a zero-dependency, no-build-step, JSON-driven micro-framework that renders structured page data as dynamic web interfaces entirely in the browser, without any external libraries or build toolchains.\n\nThe platform delivers 16 structured learning modules covering the full client-side web development stack: HTML5 semantics, CSS3 layout & variables, JavaScript ES6+ (DOM, events, closures, array methods), LocalStorage CRUD, Fetch API with JSON hydration, and Single Page Application (SPA) architecture. The final project challenges students to build a functional Content Management System from scratch.\n\nIntegrated engines: password-protected quiz module with base64-encoded answer keys and start-time gating; certificate verifier with unique credential ID lookup (SLS-YYYY-NNN format); sequential module navigation with keyboard shortcuts (←/→); auto-grid layout for info cards via JS hook on ui.render.\n\nFramework lineage: Ktupad (2019, PHP/MVC) → BayamJS (2023, JS/MVC) → DonatJS (2024–2026, JSON-driven CSR).\n\nLighthouse audit metrics — Performance: 98, Accessibility: 92, Best Practices: 100, SEO: 90.\n\nHKI Copyright registration: EC00202414144. Patent application: S00202503129 (DJKI Indonesia).",
+  "title": "OCW-PW: Open Courseware Pemrograman Web",
+  "description": "<p><strong>OCW-PW</strong> is an open courseware platform for the <em>Pemrograman Web</em> (Web Programming) course at Universitas IPWIJA, Jakarta, Indonesia.</p><p>The courseware covers <strong>16 structured modules</strong> across 4 curriculum parts, guiding students from HTML5 boilerplate through Single Page Application architecture. The culminating project is <strong>Niura Article System</strong> — a fully functional CMS built entirely in Vanilla JavaScript with zero external dependencies.</p><h3>Curriculum Structure</h3><ul><li><strong>Part 1 — Fondasi &amp; Antarmuka (P1–P4):</strong> HTML5 semantics, CSS3 Flexbox/Grid/Variables, modal and toast components.</li><li><strong>Part 2 — JavaScript &amp; Logika UI (P5–P8):</strong> DOM manipulation, event listeners, renderTable(), input validation, UTS (midterm).</li><li><strong>Part 3 — Data, Storage &amp; Async (P9–P12):</strong> ES6+ Object/Array, JSON, LocalStorage persistence, Fetch API with hydration pattern.</li><li><strong>Part 4 — CRUD Penuh &amp; Finalisasi (P13–P16):</strong> Full Update &amp; Delete, SPA navigation, Final Review, UAS (final exam).</li></ul><h3>Technical Stack</h3><ul><li><strong>Runtime:</strong> Vanilla JavaScript ES6+ — no Node.js, no Webpack, no Babel.</li><li><strong>Framework:</strong> <a href=\"https://donat.id\">DonatJS</a> — zero-dependency, no-build-step, JSON-driven micro-framework.</li><li><strong>Content format:</strong> All lecture content defined as structured JavaScript objects (<code>pages.learn</code>) — no CMS backend required.</li><li><strong>Features:</strong> Integrated quiz engine (btoa-encoded answer keys), certificate verifier, prev/next module navigation with full-read modal.</li></ul><h3>Repository</h3><p><a href=\"https://github.com/sismadi/ocw-pw\">https://github.com/sismadi/ocw-pw</a></p>",
+  "tags": [
+    "pemrograman web",
+    "web programming",
+    "open courseware",
+    "vanilla javascript",
+    "javascript",
+    "html5",
+    "css3",
+    "crud",
+    "single page application",
+    "localstorage",
+    "fetch api",
+    "donatjs",
+    "ipwija",
+    "indonesia",
+    "higher education",
+    "open educational resources"
+  ],
+  "categories": [
+    "Computer Science",
+    "Education",
+    "Software Engineering"
+  ],
+  "license": "MIT",
   "defined_type": "software",
-  "access": "open",
-  "license": 1,
   "authors": [
     {
       "name": "Wawan Sismadi",
       "first_name": "Wawan",
       "last_name": "Sismadi",
-      "orcid_id": "0009-0007-2685-5663",
-      "institution": "Universitas IPWIJA / PT Sismadi Langit Solusi"
+      "orcid": "0009-0007-2685-5663",
+      "institution": "Universitas IPWIJA"
     }
-  ],
-  "categories": [
-    "Computer Science",
-    "Software Engineering",
-    "Educational Technology",
-    "E-Learning"
-  ],
-  "tags": [
-    "open courseware",
-    "web programming",
-    "pemrograman web",
-    "javascript",
-    "client-side rendering",
-    "json-driven UI",
-    "single page application",
-    "zero dependency",
-    "no-build step",
-    "micro-framework",
-    "DonatJS",
-    "educational technology",
-    "open education",
-    "Universitas IPWIJA",
-    "Indonesia"
   ],
   "references": [
-    "Sismadi, W. (2024). Pengembangan Aplikasi Web Modern dengan DonatJS. P4I. ISBN 978-623-848-897-1.",
-    "Sismadi, W. (2024). Optimasi Penggunaan SVG dalam Web Development. P4I. ISBN 978-623-876-765-6.",
-    "Sismadi, W. (2024). Analisis Mendalam: Batasan Penggunaan AI dalam Pendidikan. P4I. ISBN 978-634-726-057-4."
-  ],
-  "related_materials": [
     {
-      "title": "DonatJS LMS — Live Deployment",
-      "url": "https://donat.id",
-      "relation": "IsDocumentedBy",
-      "identifier_type": "URL"
-    },
-    {
-      "title": "Source Repository — GitHub",
-      "url": "https://github.com/sismadi/ocw-pw",
-      "relation": "IsSupplementTo",
-      "identifier_type": "URL"
-    },
-    {
-      "title": "DonatJS Core CDN",
-      "url": "https://donatjs.github.io/core",
-      "relation": "Requires",
-      "identifier_type": "URL"
+      "title": "DonatJS: Perancangan Framework MVC Zero-Dependency untuk Implementasi LMS Berbasis Static-First Architecture",
+      "type": "journal_article",
+      "authors": [{ "name": "Wawan Sismadi" }]
     }
   ],
-  "funding": []
+  "funding": "",
+  "version": "1.0.0"
 }

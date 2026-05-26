@@ -1,70 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this courseware in your research or teaching, please cite it using the metadata below."
+message: "If you use this courseware, please cite it as below."
 type: software
-
-title: "OCW-PW: Open Courseware for Web Programming"
+title: "OCW-PW: Open Courseware Pemrograman Web"
 abstract: >
-  Open courseware platform for the Pemrograman Web (Web Programming) course
-  at Universitas IPWIJA, Jakarta. Built on DonatJS — a zero-dependency,
-  no-build-step, JSON-driven micro-framework that renders structured page data
-  as dynamic web interfaces entirely in the browser. Covers 16 structured
-  learning modules from HTML5 semantics through Single Page Application
-  architecture, with an integrated quiz engine and certificate verifier.
-  Framework lineage: Ktupad (2019) → BayamJS (2023) → DonatJS (2024–2026).
-
+  Open courseware platform for the Pemrograman Web course at Universitas IPWIJA, Jakarta.
+  16 structured modules guiding students from HTML5 fundamentals through Single Page Application
+  architecture, culminating in a fully functional CMS (Niura Article System) built entirely
+  in Vanilla JavaScript with zero external dependencies. Powered by DonatJS micro-framework.
 authors:
   - family-names: Sismadi
     given-names: Wawan
     orcid: "https://orcid.org/0009-0007-2685-5663"
-    affiliation: "Universitas IPWIJA / PT Sismadi Langit Solusi"
-    email: wawan@sismadi.com
-
+    affiliation: "Universitas IPWIJA, Jakarta"
 version: "1.0.0"
-date-released: "2026-04-20"
-
+date-released: "2026-05-26"
 license: MIT
-url: "https://donat.id"
 repository-code: "https://github.com/sismadi/ocw-pw"
-
-doi: "10.5281/figshare.XXXXXXXX"
-
+url: "https://donat.id"
 keywords:
-  - open courseware
-  - web programming
   - pemrograman web
-  - javascript
-  - client-side rendering
-  - json-driven UI
+  - vanilla javascript
+  - open courseware
+  - crud application
   - single page application
-  - zero dependency
-  - no-build step
-  - micro-framework
-  - learning management system
-  - educational technology
-  - Universitas IPWIJA
-  - Indonesia
-  - DonatJS
-
-references:
-  - type: software
-    title: "DonatJS Core"
-    url: "https://donatjs.github.io/core"
-    authors:
-      - family-names: Sismadi
-        given-names: Wawan
-  - type: book
-    title: "Pengembangan Aplikasi Web Modern dengan DonatJS"
-    year: 2024
-    isbn: "978-623-848-897-1"
-    publisher: "P4I"
-    authors:
-      - family-names: Sismadi
-        given-names: Wawan
-  - type: book
-    title: "Optimasi Penggunaan SVG dalam Web Development"
-    year: 2024
-    isbn: "978-623-876-765-6"
-    publisher: "P4I"
-    authors:
-      - family-names: Sismadi
-        given-names: Wawan
+  - localstorage
+  - fetch api
+  - html5
+  - css3
+  - donatjs
+  - ipwija
+  - indonesia
