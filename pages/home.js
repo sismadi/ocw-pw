@@ -1,93 +1,102 @@
 pages.home = [
-    // 1. CATCHY TITLE, BADGES, & SHORT DESCRIPTION (MENGGUNAKAN KOMPONEN HERO)
+    // 1. HERO
     {
         section: 'hero',
-        title: 'Minimalist Client-Side Router & UI Engine',
-        tagline: 'Zero-Dependency, Structured Data-Driven Micro-Framework for Modern Web Portals.',
-        description: 'Sebuah framework rendering sisi klien (CSR) ultra-ringan yang mengubah data terstruktur (JSON) menjadi antarmuka dinamis secara langsung tanpa langkah build (no-build step). Dirancang khusus untuk efisiensi tinggi, modularitas berbasis komponen, dan eksekusi secepat kilat.',
+        title: 'Open Courseware Pemrograman Web',
+        tagline: 'Dari HTML Boilerplate hingga Single Page Application — Satu Semester, Satu Aplikasi Nyata.',
+        description: 'Platform belajar terbuka untuk mata kuliah Pemrograman Web di Universitas IPWIJA. 16 modul terstruktur memandu mahasiswa membangun aplikasi CMS fungsional berbasis Vanilla JS — tanpa framework eksternal, tanpa jalan pintas.',
         badges: [
-            'Vanilla JS',
+            'Vanilla JS ES6+',
             'Zero-Dependency',
-            'No-Build Step',
-            'JSON-Driven Architecture',
+            '16 Modul',
+            'CRUD + SPA',
             'License: MIT',
-            'DOI: 10.5281/zenodo.XXXXXXXX'
+            'DOI: 10.5281/figshare.XXXXXXXX'
         ],
         cta: {
-            text: 'Mulai Belajar Modul',
+            text: 'Mulai Belajar',
             link: 'learn'
         },
-        imgClass: 'di-donat' // Menggunakan class icon/SVG bawaan sistem Anda
+        imgClass: 'di-donat'
     },
 
-    // 2. KEY FEATURES (MENGGUNAKAN KOMPONEN FEATURES)
+    // 2. KEY FEATURES — diambil dari 4 bagian kurikulum learn.js
     {
         section: 'features',
         items: [
             {
                 icon: 'di-code',
-                title: 'JSON-Driven UI',
-                content: 'Seluruh layout dan konten didefinisikan via skema data terstruktur (JSON). Mengurangi overhead pengelolaan DOM manual secara signifikan.',
-                linkText: 'Lihat Editor &raquo;',
-                linkTarget: 'editor'
+                title: 'Fondasi & Antarmuka',
+                content: 'HTML5 semantik, CSS3 modern (Flexbox, Grid, Variables), komponen modal dan toast notification. 4 pertemuan untuk membangun UI yang siap disambung logika.',
+                linkText: 'Mulai Bagian 1 &raquo;',
+                linkTarget: 'learn/modul01'
             },
             {
                 icon: 'di-web',
-                title: 'Micro Routing System',
-                content: 'Sistem rute berbasis query string dinamis dengan mekanisme resolusi konten otomatis (fallback default) dan dukungan riwayat browser (History API).',
-                linkText: 'Pelajari Rute &raquo;',
-                linkTarget: 'learn'
+                title: 'JavaScript & Logika UI',
+                content: 'DOM selection, event listeners, renderTable(), validasi input, dan prototipe CRUD penuh. Diuji di UTS dengan standar industri.',
+                linkText: 'Mulai Bagian 2 &raquo;',
+                linkTarget: 'learn/modul05'
             },
             {
                 icon: 'di-setting',
-                title: 'Integrated Engines',
-                content: 'Dilengkapi dengan modul bawaan terintegrasi: Quiz Engine terproteksi, Certificate Verifier, dan Slide Viewer presentasi berbasis metode P-R-E-P.',
-                linkText: 'Coba Verifikasi &raquo;',
-                linkTarget: 'cert'
+                title: 'Data, Storage & Async',
+                content: 'Object & Array ES6+, JSON, LocalStorage persistensi, Fetch API dengan pola hydration. Dari aplikasi sementara menjadi aplikasi yang benar-benar berfungsi.',
+                linkText: 'Mulai Bagian 3 &raquo;',
+                linkTarget: 'learn/modul09'
             }
         ]
     },
 
-    // 3. PREREQUISITES, USAGE EXAMPLE, & HOW TO CITE (MENGGUNAKAN KOMPONEN ARTICLE)
+    // 3. KURIKULUM + CARA SITASI
     {
         section: 'article',
         leftCol: {
-            subtitle: 'Prerequisites & Installation',
+            subtitle: 'Kurikulum 16 Modul',
             lines: [
-                '### System Requirement',
-                'Tidak membutuhkan Node.js, Webpack, Babel, atau build tools lainnya. Cukup peramban web (browser) modern yang mendukung ES6+.',
+                '### Bagian 1: Fondasi & Antarmuka',
+                '**P1** — Pengenalan Ekosistem Web & Kontrak Perkuliahan',
+                '**P2** — HTML5: Struktur Data & Semantik Antarmuka',
+                '**P3** — CSS3: Desain & Layout Modern',
+                '**P4** — Manipulasi Layout & Komponen (Modal, Toast)',
                 '---',
-                '### Quick Installation',
-                '1. Salurkan berkas **script.js** ke direktori proyek Anda.',
-                '2. Buat berkas berkas data terstruktur (misal: **dataset.js** atau **home.js**).',
-                '3. Panggil script di dalam berkas HTML utama Anda sebelum tag penutup body:',
-                '```html',
-                '<script src="dataset.js"></script>',
-                '<script src="script.js"></script>',
-                '```'
+                '### Bagian 2: JavaScript & Logika UI',
+                '**P5** — Vanilla JS & Manipulasi DOM',
+                '**P6** — Interaktivitas & Logika Render',
+                '**P7** — Review & Integrasi Prototipe',
+                '**P8** — UTS: Evaluasi Tengah Semester',
+                '---',
+                '### Bagian 3: Data, Storage & Async',
+                '**P9** — Advanced JS: Object, Array & JSON',
+                '**P10** — Persistensi Data dengan LocalStorage',
+                '**P11** — Asynchronous JS & Fetch API',
+                '**P12** — CRUD: Create & Read dengan Fetch + Hydration',
+                '---',
+                '### Bagian 4: CRUD Penuh & Finalisasi',
+                '**P13** — CRUD: Update & Delete',
+                '**P14** — Integrasi Proyek & Finalisasi',
+                '**P15** — Final Review & Demo Project',
+                '**P16/UAS** — Pengembangan SPA: CMS Fungsional'
             ]
         },
         rightCol: {
-            subtitle: 'Quick Start & Citation Specification',
+            subtitle: 'Target Proyek & Cara Sitasi',
             lines: [
-                '### Minimal Working Example (MWE)',
-                'Definisikan data halaman Anda secara deklaratif seperti contoh di bawah ini:',
+                '### Target Proyek Akhir Semester',
+                'Mahasiswa membangun **Niura Article System** — CMS berbasis Single Page Application dengan:',
                 '```javascript',
-                'const pages = {',
-                '    home: [',
-                '        {',
-                '            section: "titleHero",',
-                '            title: "Halo Dunia",',
-                '            description: "Ini adalah konten berbasis JSON-driven." ',
-                '        }',
-                '    ]',
-                '};',
+                '// Fitur yang wajib berfungsi di UAS:\n// ✅ SPA Navigation (Dashboard / List / Add-Edit)\n// ✅ Full CRUD: Create, Read, Update, Delete\n// ✅ Persistensi LocalStorage + Fetch Hydration\n// ✅ Responsif di mobile\n// ✅ Toast Notification & Modal Edit\n// ✅ Search real-time\n// ✅ Dashboard Stats (total artikel, bulan ini)',
                 '```',
-                'Sistem akan otomatis membaca objek tersebut dan mengeksekusi fungsi `ui.render()` berdasarkan rute aktif.',
                 '---',
-                '### How to Cite This Software',
-                'Jika Anda menggunakan arsitektur framework ini untuk keperluan riset, publikasi akademik, atau pengembangan komersial, silakan sitasi menggunakan format berikut:',
-                '**Wawan Sismadi.** (2026). *Sistem Rendering Antarmuka Aplikasi Web Berbasis Dokumen Data Terstruktur dengan Mekanisme Pengiriman Polimorfik Tanpa Ketergantungan Framework*. Zenodo. DOI: 10.5281/zenodo.XXXXXXXX'
+                '### Bobot Penilaian UAS',
+                'skill:30%:Logika CRUD Penuh (C-R-U-D tanpa error):Utama',
+                'skill:20%:Arsitektur SPA (min 3 menu, tanpa reload):Arsitektur',
+                'skill:20%:Persistensi Data (LocalStorage + Fetch):Teknis',
+                'skill:20%:UI/UX Responsif & CSS Variables:Desain',
+                'skill:10%:Kualitas Kode & Dokumentasi:Profesional',
+                '---',
+                '### How to Cite This Courseware',
+                '**Wawan Sismadi.** (2026). *OCW-PW: Open Courseware Pemrograman Web*. Universitas IPWIJA. Figshare. DOI: 10.5281/figshare.XXXXXXXX'
             ]
         }
     }
