@@ -7,7 +7,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)
 ![DOI](https://img.shields.io/badge/DOI-10.5281%2Ffigshare.XXXXXXXX-blue)
 
-Open courseware platform for the **Pemrograman Web** course at Universitas IPWIJA, Jakarta. Built on [DonatJS](https://donat.id) — a zero-dependency, no-build-step, JSON-driven micro-framework. Covers 16 structured modules guiding students from HTML5 boilerplate through Single Page Application architecture, culminating in a fully functional CMS called **Niura Article System**.
+Open courseware platform for the **Pemrograman Web** course. Built on [DonatJS](https://donat.id) — a zero-dependency, no-build-step, JSON-driven micro-framework. Covers 16 structured modules guiding students from HTML5 boilerplate through Single Page Application architecture, culminating in a fully functional CMS called **Niura Article System**.
 
 ---
 
@@ -209,7 +209,7 @@ ocw-pw/
   publisher    = {Figshare},
   doi          = {10.5281/figshare.XXXXXXXX},
   url          = {https://doi.org/10.5281/figshare.XXXXXXXX},
-  note         = {Open courseware for Pemrograman Web, Universitas IPWIJA.
+  note         = {Open courseware for Pemrograman Web.
                   16 modules. Target project: Niura Article System (Vanilla JS CMS).
                   Built on DonatJS zero-dependency micro-framework.
                   Repository: https://github.com/sismadi/ocw-pw}
