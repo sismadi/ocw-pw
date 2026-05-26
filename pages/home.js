@@ -4,7 +4,7 @@ pages.home = [
         section: 'hero',
         title: 'Open Courseware Pemrograman Web',
         tagline: 'Dari HTML Boilerplate hingga Single Page Application — Satu Semester, Satu Aplikasi Nyata.',
-        description: 'Platform belajar terbuka untuk mata kuliah Pemrograman Web di Universitas IPWIJA. 16 modul terstruktur memandu mahasiswa membangun aplikasi CMS fungsional berbasis Vanilla JS — tanpa framework eksternal, tanpa jalan pintas.',
+        description: 'Platform belajar terbuka untuk mata kuliah Pemrograman Web. 16 modul terstruktur memandu mahasiswa membangun aplikasi CMS fungsional berbasis Vanilla JS — tanpa framework eksternal, tanpa jalan pintas.',
         badges: [
             'Vanilla JS ES6+',
             'Zero-Dependency',
@@ -96,7 +96,7 @@ pages.home = [
                 'skill:10%:Kualitas Kode & Dokumentasi:Profesional',
                 '---',
                 '### How to Cite This Courseware',
-                '**Wawan Sismadi.** (2026). *OCW-PW: Open Courseware Pemrograman Web*. Universitas IPWIJA. Figshare. DOI: 10.5281/figshare.XXXXXXXX'
+                '**Wawan Sismadi.** (2026). *OCW-PW: Open Courseware Pemrograman Web*. Figshare. DOI: 10.5281/figshare.XXXXXXXX'
             ]
         }
     }
